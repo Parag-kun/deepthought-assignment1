@@ -11,4 +11,4 @@ app.use('/api/books', books)
 
 app.listen(port, err => err ? console.log(err) : console.log('Server running at http://localhost:' + port))
 
-module.exports = app
+// module.exports = app
